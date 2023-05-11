@@ -5,8 +5,14 @@ import {
   Section,
   Tags,
 } from 'astro-boilerplate-components';
+import type { MarkdownInstance } from 'astro';
+import type { IFrontmatter } from 'astro-boilerplate-components';
 
-const ProjectList = () => (
+type Projects = {
+  projects: Array<any>;
+};
+
+const ProjectList = (props:Projects) => (
   <Section
     title={
       <>
@@ -15,7 +21,13 @@ const ProjectList = () => (
     }
   >
     <div className="flex flex-col gap-6">
-      <Project
+    
+    {
+      props.projects.map(project => <Project name={project.name} description={project.description} img={{src:`/assets/images/projects/${project.image_link}`, alt:""}} link={project.github_link} category="" />)
+    }
+
+
+      {/* <Project
         name="Project 1"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
@@ -63,7 +75,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
           </>
         }
-      />
+      /> */}
     </div>
   </Section>
 );
