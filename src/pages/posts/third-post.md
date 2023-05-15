@@ -20,7 +20,9 @@ So our text editor will not have many features, only text editing, saving and lo
 
 I will use Python, and the customTkinter library, to create GUI.
 
-The [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) is based on [Tkinter](https://docs.python.org/fr/3/library/tkinter.html) library but with more modern widgets.
+The <a href="https://github.com/TomSchimansky/CustomTkinter" target="_blank"> CustomTkinter</a>
+is based on
+<a href="https://docs.python.org/fr/3/library/tkinter.html" target="_blank">Tkinter</a>library but with more modern widgets.
 
 First let's import the librairies
 
@@ -136,6 +138,7 @@ We delete the content and we write the new text. So be sure to save the file bef
 As you can see, this text editor is very basic, but in 15 minutes, it works well. Plenty of ameliorations and new features can be added to this text editor, you just have to imagine it.
 
 Hope you enjoy creating this text editor as much i did, see you next time.
-[See the code on Github](https://github.com/UltraViolet33/Text-Editor)
+
+<a href="https://github.com/UltraViolet33/Text-Editor" target="_blank">See the code oGithub</a>
 
 </div>

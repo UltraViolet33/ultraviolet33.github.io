@@ -53,18 +53,18 @@ const Hero = () => (
               alt="Facebook icon"
             />
           </a> */}
-          <a href="/">
+          <a href="https://www.linkedin.com/in/ulysse-valdenaire/" target="_blank">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          {/* <a href="/">
             <HeroSocial
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
             />
-          </a>
+          </a> */}
         </>
       }
     />

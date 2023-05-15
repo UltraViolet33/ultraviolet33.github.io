@@ -10,7 +10,15 @@
     "name": "Flask Blog",
     "description": "A blog with the web framework Flask in Python",
     "github_link": "https:\/\/github.com\/UltraViolet33\/Flask-Blog",
-    "id_project": 72
+    "id_project": 72,
+    "image_link": "/blog.jpg"
+  },
+  {
+    "name": "Vite mon Book E-Shop",
+    "description": "E-Commerce website in PHP.",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Vite-mon-Book-E-Shop",
+    "id_project": 39,
+    "image_link": "/vitemonbook.jpg"
   },
   {
     "name": "Github Portfolio",
@@ -59,12 +67,6 @@
     "description": "A React Native mobile application to manage your contacts' names, emails and phone number.",
     "github_link": "https:\/\/github.com\/UltraViolet33\/Contacts-App",
     "id_project": 42
-  },
-  {
-    "name": " Vite mon Book E-Shop",
-    "description": "E-Commerce website in PHP.",
-    "github_link": "https:\/\/github.com\/UltraViolet33\/Vite-mon-Book-E-Shop",
-    "id_project": 39
   },
   {
     "name": "Games Mobile App",

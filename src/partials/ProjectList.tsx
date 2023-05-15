@@ -4,15 +4,15 @@ import {
   Project,
   Section,
   Tags,
-} from 'astro-boilerplate-components';
-import type { MarkdownInstance } from 'astro';
-import type { IFrontmatter } from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
+import type { MarkdownInstance } from "astro";
+import type { IFrontmatter } from "astro-boilerplate-components";
 
 type Projects = {
   projects: Array<any>;
 };
 
-const ProjectList = (props:Projects) => (
+const ProjectList = (props: Projects) => (
   <Section
     title={
       <>
@@ -21,11 +21,18 @@ const ProjectList = (props:Projects) => (
     }
   >
     <div className="flex flex-col gap-6">
-    
-    {
-      props.projects.map(project => <Project name={project.name} description={project.description} img={{src:`/assets/images/projects/${project.image_link}`, alt:""}} link={project.github_link} category="" />)
-    }
-
+      {props.projects.map((project) => (
+        <Project
+          name={project.name}
+          description={project.description}
+          img={{
+            src: `/assets/images/projects/${project.image_link}`,
+            alt: "",
+          }}
+          link={project.github_link}
+          category=""
+        />
+      ))}
 
       {/* <Project
         name="Project 1"

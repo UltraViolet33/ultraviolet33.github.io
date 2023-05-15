@@ -1,12 +1,11 @@
 ---
-layout: '@/templates/BasePost.astro'
+layout: "@/templates/BasePost.astro"
 title: Let's create a Singleton in PHP !
 description: How to use the Singleton pattern in PHP to connect to a database
 pubDate: 2022-10-03T00:00:00Z
-imgSrc: '/assets/images/posts/singleton.png'
-imgAlt: 'Image post 5'
+imgSrc: "/assets/images/posts/singleton.png"
+imgAlt: "Image post 5"
 ---
-
 
 So I decided to talk about Singleton design pattern in PHP. This is the first tutorial I write, so feel free to comment or suggest any improvements.
 
@@ -64,7 +63,7 @@ class Database
         return $statement->execute($data);
     }
 
-    
+
     public function read(string $query, array $data = array()): array
     {
         $statement = $this->PDOInstance->prepare($query);
@@ -189,6 +188,7 @@ If it is not null, it means the class has already been instantiate, so we can re
 And we have our instance.
 
 So the Database class looks like this :
+
 ```php
 <?php
 
@@ -224,3 +224,36 @@ class DatabaseSingleton
     }
 }
 ```
+
+In the User class :
+
+```php
+
+<?php
+
+require "./DatabaseSingleton.php";
+
+class User
+{
+    private string $name;
+    private string $email;
+    private string $password;
+    private DatabaseSingleton $db;
+
+    public function __construct(string $name, string $email, string $password)
+    {
+        $this->name = $name;
+        $this->email = $email;
+        $this->password = $password;
+        $this->db = DatabaseSingleton::getInstance();
+    }
+
+```
+
+And we can do CRUD operations like before.
+
+### Conclusion
+
+So to conclude, we can use the Singleton design pattern when a class only needs to be instantiated once. However, there are some inconvenients with this design pattern. It might cause issues when you have to test your code.
+
+Thank you for reading this tutorial and see you soon !
