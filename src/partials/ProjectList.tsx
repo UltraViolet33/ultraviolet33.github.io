@@ -29,7 +29,7 @@ const ProjectList = (props: Projects) => (
             src: `/assets/images/projects/${project.image_link}`,
             alt: "",
           }}
-          link={project.github_link}
+          link={project.link}
           category=""
         />
       ))}
