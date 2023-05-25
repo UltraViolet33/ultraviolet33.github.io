@@ -1,0 +1,15 @@
+---
+import { ProjectList } from "@/partials/ProjectList";
+import Base from "@/templates/Base.astro";
+import { AppConfig } from "@/utils/AppConfig";
+
+import projects from "@/data/projects.json";
+const { title } = AppConfig;
+const { description } = AppConfig;
+
+const allProjects = projects;
+---
+
+<Base head={{ title, description }}>
+  <ProjectList projects={allProjects} />
+</Base>

@@ -16,17 +16,17 @@ const ProjectList = (props: Projects) => (
     }>
     <div className="flex flex-col gap-6">
       {props.projects.map(project => (
-        <Project
-          name={project.name}
-          description={project.description}
-          img={{
-            src: `/assets/images/projects/${project.image_link}`,
-            // src: ``,
-            alt: "",
-          }}
-          link={project.github_link}
-          category={<ProjectCategories categories={project.categories} />}
-        />
+          <Project
+            name={project.name}
+            description={project.description}
+            img={{
+              src: `/assets/images/projects/${project.image_link}`,
+              // src: ``,
+              alt: "",
+            }}
+            link={project.github_link}
+            category={<ProjectCategories categories={project.categories} />}
+          />
       ))}
 
       {/* <Project
