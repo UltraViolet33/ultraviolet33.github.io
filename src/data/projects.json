@@ -5,7 +5,7 @@
     "github_link": "https:\/\/github.com\/UltraViolet33\/Movies-Apps",
     "id_project": 102,
     "link": "/projects/movies-app",
-    "image_link": "/movies.jpg"
+    "image_link": "/movies.png"
   },
   {
     "name": "Flask Blog",
@@ -13,7 +13,7 @@
     "github_link": "https:\/\/github.com\/UltraViolet33\/Flask-Blog",
     "id_project": 72,
     "link": "/projects/flask-blog",
-    "image_link": "/blog.jpg"
+    "image_link": "/blog.png"
   },
   {
     "name": "Vite mon Book E-Shop",
@@ -21,7 +21,7 @@
     "github_link": "https:\/\/github.com\/UltraViolet33\/Vite-mon-Book-E-Shop",
     "id_project": 39,
     "link": "/projects/vite-mon-book",
-    "image_link": "/vitemonbook.jpg"
+    "image_link": "/book.png"
   },
   {
     "name": "Github Portfolio",

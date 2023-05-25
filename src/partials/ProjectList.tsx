@@ -27,6 +27,7 @@ const ProjectList = (props: Projects) => (
           description={project.description}
           img={{
             src: `/assets/images/projects/${project.image_link}`,
+            // src: ``,
             alt: "",
           }}
           link={project.link}
