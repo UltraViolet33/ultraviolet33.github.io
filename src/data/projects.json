@@ -5,7 +5,14 @@
     "github_link": "https:\/\/github.com\/UltraViolet33\/Movies-Apps",
     "id_project": 102,
     "link": "/projects/movies-app",
-    "image_link": "/movies.png"
+    "image_link": "/movies.png",
+    "categories": [
+      "Python",
+      "Flask API",
+      "Flutter",
+      "Mobile",
+      "MySQL"
+    ]
   },
   {
     "name": "Flask Blog",
@@ -13,7 +20,13 @@
     "github_link": "https:\/\/github.com\/UltraViolet33\/Flask-Blog",
     "id_project": 72,
     "link": "/projects/flask-blog",
-    "image_link": "/blog.png"
+    "image_link": "/blog.png",
+    "categories": [
+      "Python",
+      "Flask",
+      "Blog",
+      "SQLite"
+    ]
   },
   {
     "name": "Vite mon Book E-Shop",
@@ -21,7 +34,13 @@
     "github_link": "https:\/\/github.com\/UltraViolet33\/Vite-mon-Book-E-Shop",
     "id_project": 39,
     "link": "/projects/vite-mon-book",
-    "image_link": "/book.png"
+    "image_link": "/book.png",
+    "categories": [
+      "PHP",
+      "MVC",
+      "Bootstrap",
+      "MySQL"
+    ]
   },
   {
     "name": "Github Portfolio",

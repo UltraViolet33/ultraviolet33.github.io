@@ -1,12 +1,7 @@
-import {
-  ColorTags,
-  GradientText,
-  Project,
-  Section,
-  Tags,
-} from "astro-boilerplate-components";
+import { GradientText, Project, Section } from "astro-boilerplate-components";
 import type { MarkdownInstance } from "astro";
 import type { IFrontmatter } from "astro-boilerplate-components";
+import { ProjectCategories } from "./ProjectCategories";
 
 type Projects = {
   projects: Array<any>;
@@ -18,10 +13,9 @@ const ProjectList = (props: Projects) => (
       <>
         Recent <GradientText>Projects</GradientText>
       </>
-    }
-  >
+    }>
     <div className="flex flex-col gap-6">
-      {props.projects.map((project) => (
+      {props.projects.map(project => (
         <Project
           name={project.name}
           description={project.description}
@@ -30,8 +24,8 @@ const ProjectList = (props: Projects) => (
             // src: ``,
             alt: "",
           }}
-          link={project.link}
-          category=""
+          link={project.github_link}
+          category={<ProjectCategories categories={project.categories} />}
         />
       ))}
 
