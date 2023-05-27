@@ -30,7 +30,7 @@
   },
   {
     "name": "Vite mon Book E-Shop",
-    "description": "E-Commerce website in PHP.",
+    "description": "E-Commerce website in PHP",
     "github_link": "https:\/\/github.com\/UltraViolet33\/Vite-mon-Book-E-Shop",
     "id_project": 39,
     "link": "/projects/vite-mon-book",
@@ -43,42 +43,43 @@
     ]
   },
   {
-    "name": "Github Portfolio",
-    "description": "My Github portfolio",
-    "github_link": "https:\/\/github.com\/UltraViolet33\/Github-Portofolio",
-    "id_project": 59,
+    "name": "PHP Blog",
+    "description": "A blog to practice MVC pattern with PHP",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/PHP-Blog",
+    "id_project": 38,
+    "image_link": "/blog.png",
     "categories": [
-      "Python",
-      "Flask API",
-      "Flutter",
-      "Mobile",
+      "PHP",
+      "MVC",
+      "Bootstrap",
       "MySQL"
     ]
   },
   {
     "name": " Projects Manager ",
-    "description": "Sample PHP\/MySQL web app to manage projects.",
+    "description": "Sample PHP\/MySQL web app to manage projects",
     "github_link": "https:\/\/github.com\/UltraViolet33\/Projects-Manager-PHP",
     "id_project": 66,
+    "image_link": "/projects_manager.png",
     "categories": [
-      "Python",
-      "Flask API",
-      "Flutter",
-      "Mobile",
+      "PHP",
+      "MVC",
+      "Bootstrap",
       "MySQL"
     ]
   },
   {
-    "name": "PHP API Training",
-    "description": "An API  with PHP about books and a front-end with Vanilla JS.",
+    "name": "PHP API Books",
+    "description": "An API with PHP about books and a front-end with JavaScript",
     "github_link": "https:\/\/github.com\/UltraViolet33\/PHP-API-Trainig",
     "id_project": 35,
-     "categories": [
-      "Python",
-      "Flask API",
-      "Flutter",
-      "Mobile",
-      "MySQL"
+    "image_link": "/book.png",
+    "categories": [
+      "PHP",
+      "API",
+      "MySQL",
+      "JavaScript",
+      "Bootstrap"
     ]
   }
 ]
