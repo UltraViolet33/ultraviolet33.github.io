@@ -10,9 +10,17 @@ type Projects = {
 const ProjectList = (props: Projects) => (
   <Section
     title={
-      <>
-        Recent <GradientText>Projects</GradientText>
-      </>
+      <div className="flex items-baseline justify-between">
+        <div>
+          {props.projects.length > 3 ? "More " : "Recent "}
+          <GradientText>Projects</GradientText>
+        </div>
+        {props.projects.length <= 3 && (
+          <div className="text-sm">
+            <a href="/projects">View more Projects →</a>
+          </div>
+        )}
+      </div>
     }>
     <div className="flex flex-col gap-6">
       {props.projects.map(project => (
