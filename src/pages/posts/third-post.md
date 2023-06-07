@@ -14,7 +14,7 @@ Hey guys, I write this post to show you how I created my own text editor using P
 
 Why a text editor ? There is already plenty of very good text editors available. So my text editor won't be the next Word or Vscode.
 
-But since I know how to create things with code, I spent time creating my own applications. I learn some new things on the way and I have fun coding. That's the main thing.
+But since I know how to create things with code, I spend time creating my own applications. I learn some new things on the way and I have fun coding. That's the main thing.
 
 So our text editor will not have many features, only text editing, saving and loading files.
 
@@ -31,7 +31,7 @@ import tkinter as tk
 import customtkinter
 ```
 
-Then our program will consists in a single class
+Then our program will consist in a single class
 
 ```py
 class TextEditorGui(customtkinter.CTk):
@@ -90,7 +90,7 @@ def update_text(self, event):
     print(self.text)
 ```
 
-now if you type text, you should see the text in the python console
+Now if you type text, you should see the text in the python console.
 
 Next we have to create two methods, one to load a file and one to save a file.
 
@@ -107,7 +107,7 @@ def load(self):
     self.update_textbox()
 ```
 
-The save method writes text into a file. We use file dialog from tkinter.
+The save method writes text into a file. We use file dialog from Tkinter.
 
 The load method opens a file and then sets `self.text` with the file content.
 We must not forget to bind these methods to the save and load buttons.
