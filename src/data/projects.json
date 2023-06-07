@@ -8,9 +8,9 @@
     "image_link": "/movies.png",
     "categories": [
       "Python",
-      "Flask API",
+      "Flask",
+      "API",
       "Flutter",
-      "Mobile",
       "MySQL"
     ]
   },
@@ -24,8 +24,89 @@
     "categories": [
       "Python",
       "Flask",
-      "Blog",
-      "SQLite"
+      "Bootstrap",
+      "SQLite",
+      "Blog"
+    ]
+  },
+  {
+    "name": "History Games",
+    "description": "Little games about France history in React",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/History-Games",
+    "id_project": 105,
+    "image_link": "/history.png",
+    "categories": [
+      "React",
+      "Drag and Drop"
+    ]
+  },
+  {
+    "name": "PHP Blog",
+    "description": "A blog to practice MVC pattern with PHP",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/PHP-Blog",
+    "id_project": 38,
+    "image_link": "/blog.png",
+    "categories": [
+      "PHP",
+      "MVC",
+      "Bootstrap",
+      "MySQL",
+      "Blog"
+    ]
+  },
+  {
+    "name": "Workout-Tracker",
+    "description": "My personal workout tracker with the web framework Flask",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Workout-Tracker",
+    "id_project": 103,
+    "link": "/projects/workout-tracker",
+    "image_link": "/workout.png",
+    "categories": [
+      "Python",
+      "Flask",
+      "Pytest",
+      "Bootstrap",
+      "MySQL"
+    ]
+  },
+  {
+    "name": "Focus Timer App",
+    "description": "React Native mobile app to focus using a timer",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Focus-Timer-App",
+    "id_project": 34,
+    "link": "/projects/focus-timer",
+    "image_link": "/focus.png",
+    "categories": [
+      "React",
+      "React Native",
+      "Mobile"
+    ]
+  },
+  {
+    "name": "Contacts App",
+    "description": "React Native mobile app to manage your contacts",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Contacts-App",
+    "id_project": 42,
+    "link": "/projects/contacts-app",
+    "image_link": "/contact.png",
+    "categories": [
+      "React",
+      "React Native",
+      "Mobile"
+    ]
+  },
+  {
+    "name": "Games Mobile App",
+    "description": "React Native mobile app to browse video games",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Games-Mobile-App",
+    "id_project": 44,
+    "link": "/projects/flask-blog",
+    "image_link": "/video-games.png",
+    "categories": [
+      "React",
+      "React Native",
+      "Third-Party API",
+      "Mobile"
     ]
   },
   {
@@ -39,24 +120,12 @@
       "PHP",
       "MVC",
       "Bootstrap",
-      "MySQL"
+      "MySQL",
+      "e-shop"
     ]
   },
   {
-    "name": "PHP Blog",
-    "description": "A blog to practice MVC pattern with PHP",
-    "github_link": "https:\/\/github.com\/UltraViolet33\/PHP-Blog",
-    "id_project": 38,
-    "image_link": "/blog.png",
-    "categories": [
-      "PHP",
-      "MVC",
-      "Bootstrap",
-      "MySQL"
-    ]
-  },
-  {
-    "name": " Projects Manager ",
+    "name": "Projects Manager ",
     "description": "Sample PHP\/MySQL web app to manage projects",
     "github_link": "https:\/\/github.com\/UltraViolet33\/Projects-Manager-PHP",
     "id_project": 66,
@@ -70,7 +139,7 @@
   },
   {
     "name": "PHP API Books",
-    "description": "An API with PHP about books and a front-end with JavaScript",
+    "description": "I built an API about books in PHP from scratch with a Javascript front end",
     "github_link": "https:\/\/github.com\/UltraViolet33\/PHP-API-Trainig",
     "id_project": 35,
     "image_link": "/book.png",
@@ -79,6 +148,57 @@
       "API",
       "MySQL",
       "JavaScript",
+      "Bootstrap"
+    ]
+  },
+
+  {
+    "name": "Youtube Videos Downloader",
+    "description": "A Flask web app to download Youtube videos",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Youtube-Videos-Downloader",
+    "id_project": 78,
+    "image_link": "/video.png",
+    "categories": [
+      "Python",
+      "Flask",
+      "Bootstrap"
+    ]
+  },
+  {
+    "name": "Click Me",
+    "description": "Video game with pygame where you have to click as fast as possible !",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Click-Me",
+    "id_project": 83,
+    "image_link": "/target.png",
+    "categories": [
+      "PHP",
+      "API",
+      "MySQL",
+      "JavaScript",
+      "Bootstrap"
+    ]
+  },
+  {
+    "name": "Expenses Manager CLI",
+    "description": "A CLI app in Python to manage your expenses",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Expense-Manager-CLI",
+    "id_project": 55,
+    "image_link": "/money.png",
+    "categories": [
+      "Python",
+      "CLI app",
+      "CSV"
+    ]
+  },
+  {
+    "name": " Books Manager",
+    "description": "A web app to manage books in PHP \/ MYSQL \/ Bootstrap",
+    "github_link": "https:\/\/github.com\/UltraViolet33\/Books-CRUD-PHP",
+    "id_project": 40,
+    "image_link": "/book.png",
+    "categories": [
+      "PHP",
+      "MySQL",
       "Bootstrap"
     ]
   }

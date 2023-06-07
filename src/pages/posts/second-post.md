@@ -182,8 +182,8 @@ public static function getInstance(): self
 }
 ```
 
-We check if `self::instance` is null. If it is null, it means it have not been instantiate yet. So we instantiate the Database class in the `$instance` property.
-If it is not null, it means the class has already been instantiate, so we can return `self::instance`.
+We check if `self::instance` is null. If it is null, it means it has not been instantiated yet. So we instantiate the Database class in the `$instance` property.
+If it is not null, it means the class has already been instantiated, so we can return `self::instance`.
 
 And we have our instance.
 

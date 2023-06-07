@@ -12,7 +12,7 @@ This cellular automation was invented by a mathematician named John Conway.
 
 This is very easy to understand: it consists of a grid of cells which can live, die or multiply based on three rules:
 
-- 1 - Each cell with one or two neigbhors die by soliture
+- 1 - Each cell with one or no neigbhors die by soliture
 - 2 - Each cell with four or more neigbhors dies by overpopulation
 - 3 - Each cell with two or three neigbors survives
 
@@ -40,7 +40,7 @@ window.mainloop()
 
 Here we create a window with Tkinter of 600 by 600 and a canvas to draw the cells.
 
-We will represent the cells with a list of lists. Since the GUI window is 600 x 600, our cells list wil be 60 x 60. An alive cell is represents with the value 1 and a dead one with the value 0. So, to begin, we fill our list with dead cells.
+We will represent the cells with a list of lists. Since the GUI window is 600 x 600, our cells list wil be 60 x 60. An alive cell is represented with the value 1 and a dead one with the value 0. So, to begin, we fill our list with dead cells.
 
 ```py
 cells = []
@@ -103,7 +103,7 @@ The result must looks like something like this:
 
 To make the cells evolve, we first need to count how many each cell have alive cells in its neighborhood. According to this number we could know if each cell is alive or dead (1 or 0). We could create a new list with these new values and then display on the window the new cells. Since is it looping every 100 milliseconds, it will be like the cells are moving.
 
-To count how many a cells have alive neighbor cells, we will create a `countAliveCellsAround(x,y)`. It takes two arguments, x and y which are the coordinates of the cell in the list cells.
+To count how many cells have alive neighbor cells, we will create a `countAliveCellsAround(x,y)`. It takes two arguments, x and y which are the coordinates of the cell in the list cells.
 
 We initialize count to the value 0.
 
@@ -214,6 +214,5 @@ def programLoop():
     window.after(100, programLoop)
 ```
 
-Final result is here :
 
 Get the whole code on <a target="_blank" href="https://github.com/UltraViolet33/Game-Life">github</a>.
