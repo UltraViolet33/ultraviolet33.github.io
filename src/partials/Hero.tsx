@@ -24,7 +24,7 @@ const Hero = () => (
         I also worked on mobile apps  and video games projects.
 
         I'm learning about cybersecurity and AI too.
-        You can also read some articles I write about new things I learn.
+        You can read some articles I write about new things I learn.
 
           {/* <a className="text-cyan-400 hover:underline" href="/">
             consectetur
