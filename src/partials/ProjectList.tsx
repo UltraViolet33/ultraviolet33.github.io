@@ -33,7 +33,7 @@ const ProjectList = (props: Projects) => (
             alt: "",
           }}
           link={project.github_link}
-          category={<ProjectCategories categories={project.categories} />}
+          category={<ProjectCategories  categories={project.categories} />}
         />
       ))}
 
