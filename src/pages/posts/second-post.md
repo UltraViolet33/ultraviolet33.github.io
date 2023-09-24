@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 title: Let's create a Singleton in PHP !
 description: How to use the Singleton pattern in PHP to connect to a database
 pubDate: 2022-10-03T00:00:00Z
-imgSrc: "/assets/images/posts/singleton.png"
+imgSrc: "/assets/images/posts/singleton.webp"
 imgAlt: "Image post 5"
 ---
 

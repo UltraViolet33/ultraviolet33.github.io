@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 title: Flexbox Exercices !
 description: Des exercices pour pratiquer Flexbox en CSS
 pubDate: 2023-09-23T00:00:00Z
-imgSrc:  "/assets/images/posts/flexbox/exo1.png"
+imgSrc:  "/assets/images/posts/flexbox/exo1.webp"
 imgAlt: "Game of life image"
 ---
 
@@ -47,7 +47,7 @@ Code CSS
 
 Résultat attendu
 
-<img src="/assets/images/posts/flexbox/exo1.png" width="600px">
+<img src="/assets/images/posts/flexbox/exo1.webp" width="600px">
 
 
 - le damier doit prendre toute la hauteur de l'écran

@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 title: Let's create a text editor in Python
 description: How to create a text editor with Tkinter in Python
 pubDate: 2023-04-18T00:00:00Z
-imgSrc: "/assets/images/posts/text_editor.png"
+imgSrc: "/assets/images/posts/text_editor.webp"
 imgAlt: "Image post 5"
 ---
 
