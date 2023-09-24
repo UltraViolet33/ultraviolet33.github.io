@@ -1,4 +1,17 @@
-import { Tags, ColorTags } from "astro-boilerplate-components";
+// import { Tags, ColorTags } from "astro-boilerplate-components";
+
+import {  ColorTags } from "astro-boilerplate-components";
+
+ type ITagsProps = {
+  color: Values<typeof ColorTags>;
+  children: ReactNode;
+};
+
+
+const Tags = ({color,children}: ITagsProps) => <div className="rounded-md px-2 py-1 text-xs font-semibold" >
+  
+  {children}
+</div>
 
 type Categories = {
   categories: Array<string>;
@@ -15,7 +28,7 @@ const getColor = () => {
 const ProjectCategories = (props: Categories) => (
   <>
     {props.categories.map(category => {
-      return <Tags color={ColorTags[getColor()]}>{category}</Tags>;
+      return <Tags style={{color:"black"}} color={ColorTags[getColor()]}>{category}</Tags>;
     })}
   </>
 );
