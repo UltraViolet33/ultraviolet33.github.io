@@ -1,17 +1,17 @@
-// import { Tags, ColorTags } from "astro-boilerplate-components";
+import { Tags, ColorTags } from "astro-boilerplate-components";
 
-import {  ColorTags } from "astro-boilerplate-components";
+// import {  ColorTags } from "astro-boilerplate-components";
 
- type ITagsProps = {
-  color: Values<typeof ColorTags>;
-  children: ReactNode;
-};
+//  type ITagsProps = {
+//   color: Values<typeof ColorTags>;
+//   children: ReactNode;
+// };
 
 
-const Tags = ({color,children}: ITagsProps) => <div className="rounded-md px-2 py-1 text-xs font-semibold" >
+// const Tags = ({color,children}: ITagsProps) => <div className="rounded-md px-2 py-1 text-xs font-semibold" >
   
-  {children}
-</div>
+//   {children}
+// </div>
 
 type Categories = {
   categories: Array<string>;
