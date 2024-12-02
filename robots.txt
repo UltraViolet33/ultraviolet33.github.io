@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ultraviolet33.github.io/sitemap-index.xml
