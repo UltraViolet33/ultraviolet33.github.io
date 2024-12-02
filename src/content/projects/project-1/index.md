@@ -2,7 +2,7 @@
 title: "Project One"
 summary: "Lorem ipsum dolor sit amet"
 date: "Mar 18 2022"
-draft: true
+draft: false
 tags:
 - Astro
 - Javascript
