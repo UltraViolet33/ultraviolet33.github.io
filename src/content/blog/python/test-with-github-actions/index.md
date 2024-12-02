@@ -11,12 +11,13 @@ tags:
 
 I assume you have a Python project, but you can adapt it to any languages / frameworks.
 
-Create the `.github/workflows` folder and the yml file.
+Create the `.github/workflows` folder and the yml file at the root of your project.
 
 ```bash
 mkdir -p .github/workflows && touch .github/workflows/testing.yml
 ```
 
+The testing.yml file:
 ```yml
 name: test
 on:
